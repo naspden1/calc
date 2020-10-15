@@ -33,7 +33,7 @@ def EvaluateExpr(input):
         operator = '*'
     elif operator == '^':
         operator = '**'
-    elif operator == '%':  # not necessary but used durnig git conflict resolution exercise!
+    elif operator == '%':  # not necessary but used during git conflict resolution exercise!
         operator = '%'
 
     evaluation = (eval(tokens[2] + operator + tokens[3]))
